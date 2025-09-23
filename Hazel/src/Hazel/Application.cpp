@@ -1,3 +1,4 @@
+#include "hzpch.h"
 #include "Application.h"
 
 #include "Hazel/Events/KeyEvent.h"
@@ -39,10 +40,10 @@ namespace Hazel {
 		MouseButtonPressedEvent e3(1);
 		HZ_TRACE(e3);
 
-		MouseScrolledEvent e4(2.2, 3.1);
+		MouseScrolledEvent e4(float(2.2), float(3.1));
 		HZ_TRACE(e4);
 
-		MouseMovedEvent e5(3.1, 4.2);
+		MouseMovedEvent e5(float(3.1), float(4.2));
 		HZ_TRACE(e5);
 		//HZ_TRACE(e.ToString());
 
