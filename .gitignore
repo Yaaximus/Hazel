@@ -1,7 +1,14 @@
-# Directories
+# Visual Studio
 .vs/
+
+# Build output directories
 bin/
 bin-int/
 
-# Files
+# GLFW build outputs
+Hazel/vendor/GLFW/bin/
+Hazel/vendor/GLFW/bin-int/
+
+# User-specific files
 *.user
+*.suo
